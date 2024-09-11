@@ -188,3 +188,42 @@
   height: auto;
   display: block;
 }
+
+/* about */
+
+.about .d-flex {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+.about .lead {
+  width: 25.9rem;
+  font-size: 1.25rem;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+.about .cta-wrapper {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+/* button */
+
+.btn {
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+
+.btn i {
+  margin-right: 0.5rem;
+}
+
+.btn.btn-outline-light {
+  color: white;
+  border: 0.125rem solid white;
+}
