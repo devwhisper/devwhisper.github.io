@@ -226,4 +226,10 @@
 .btn.btn-outline-light {
   color: white;
   border: 0.125rem solid white;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn.btn-outline-light:hover {
+  background-color: white;
+  color: #000;
 }
